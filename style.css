@@ -1,0 +1,101 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .title-container {
+    background-color: #93C47D;
+    padding: 10px;
+    margin-bottom: 30px;
+  }
+  
+  .title-container h1 {
+    font-size: 2em;
+    font-weight: bold;
+    margin: 0;
+    color: #fff;
+    background-color: #93C47D;
+    display: inline-block;
+    padding: 10px;
+    width: 405px;
+  }
+  
+  .skill-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .skill {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px;
+    background-color: #fff;
+    font-size: 1.2em;
+    border-radius: 5px;
+    width: 80%;
+  }
+  
+  .skill-text:last-child {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  
+  .icon-container {
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    background-color: #c43535;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+  }
+  
+  .icon-container .icon {
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+  
+  .skill-text {
+    font-size: 1.2em;
+    color: #FFA51E;
+  }
+  
+  .add-skill-container {
+    margin-top: 30px;
+  }
+  
+  .add-skill-container input[type="text"] {
+    padding: 10px;
+    font-size: 1.2em;
+    width: 300px;
+    margin-right: 10px;
+    border: 4px solid #93C47D;
+  }
+  
+  button {
+    background-color: transparent;
+    color: #93C47D;
+    border: 2px solid #93C47D;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  button.add-skill-button {
+    border: 4px solid #93C47D;
+    background-color: #fff;
+    color: #93C47D;
+    font-size: 20px;
+    padding: 10px 20px;
+  }
